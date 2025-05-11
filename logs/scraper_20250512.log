@@ -1,0 +1,121 @@
+2025-05-12 00:58:00,829 - scraper - ERROR - Error fetching page https://onejav.com/new: [WinError 10054] ���� ������ ���� ȣ��Ʈ�� ���� ������ ������ϴ�
+2025-05-12 00:58:25,020 - scraper - ERROR - Error fetching page https://onejav.com/new: [WinError 10054] ���� ������ ���� ȣ��Ʈ�� ���� ������ ������ϴ�
+2025-05-12 01:01:00,773 - scraper - ERROR - Error saving to database: 'url' is an invalid keyword argument for Post
+2025-05-12 01:04:21,571 - scraper - ERROR - Error saving to database: (builtins.TypeError) SQLite DateTime type only accepts Python datetime and date objects as input.
+[SQL: INSERT INTO posts (url, code, title, image_url, file_size, post_date, tags, description, actress, download_url, scraped_at, created_at, updated_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: [{'image_url': 'https://www.heyzo.com/contents/3000/3584/images/player_thumbnail_en.jpg', 'scraped_at': '2025-05-12T01:04:21.564102', 'title': 'HEYZO35 ... (432 characters truncated) ...  'Fuua Kaede', 'url': 'https://onejav.com/new', 'download_url': 'https://onejav.com/torrent/heyzo3584/download/29688484/onejav.com_heyzo3584.torrent'}]]
+2025-05-12 01:10:47,163 - scraper - INFO - Saved post: HEYZO3584
+2025-05-12 07:36:28 - scraper.core.database - INFO - 테이블 및 인덱스 생성 완료
+2025-05-12 07:36:28 - scraper.core.database - INFO - 데이터베이스 초기화 완료: database/scraper.db
+2025-05-12 07:36:28 - scraper.core.database - INFO - 테이블 및 인덱스 생성 완료
+2025-05-12 07:36:28 - scraper.core.database - INFO - 데이터베이스 초기화 완료
+2025-05-12 07:36:30 - scraper.core.scraper - INFO - 스크래핑 시작
+2025-05-12 07:36:30 - scraper.core.scraper - INFO - 페이지 처리: https://onejav.com/new
+2025-05-12 07:36:30 - scraper.core.scraper - INFO - Selenium으로 페이지 요청: https://onejav.com/new
+2025-05-12 07:36:48 - scraper.core.scraper - INFO - 발견된 게시물 수: 10
+2025-05-12 07:36:49 - scraper.core.scraper - INFO - 게시물 임시 저장: FNEO-091
+2025-05-12 07:36:55 - scraper.core.scraper - INFO - 게시물 임시 저장: HONB-424
+2025-05-12 07:37:01 - scraper.core.scraper - INFO - 게시물 임시 저장: JSTK-024
+2025-05-12 07:37:07 - scraper.core.scraper - INFO - 게시물 임시 저장: KNAM-070
+2025-05-12 07:37:14 - scraper.core.scraper - INFO - 게시물 임시 저장: KNAM-071
+2025-05-12 07:37:20 - scraper.core.scraper - INFO - 게시물 임시 저장: NINE-110
+2025-05-12 07:37:26 - scraper.core.scraper - INFO - 게시물 임시 저장: PAKO-090
+2025-05-12 07:37:32 - scraper.core.scraper - INFO - 게시물 임시 저장: YAKO-070
+2025-05-12 07:37:37 - scraper.core.scraper - INFO - 게시물 임시 저장: IESP-753
+2025-05-12 07:37:43 - scraper.core.scraper - INFO - 게시물 임시 저장: RCTD-662
+2025-05-12 07:37:48 - scraper.core.scraper - INFO - 다음 페이지 URL: https://onejav.com/new?page=2
+2025-05-12 07:37:48 - scraper.core.scraper - INFO - 페이지 처리: https://onejav.com/new?page=2
+2025-05-12 07:37:48 - scraper.core.scraper - INFO - Selenium으로 페이지 요청: https://onejav.com/new?page=2
+2025-05-12 07:38:05 - scraper.core.scraper - INFO - 발견된 게시물 수: 10
+2025-05-12 07:38:06 - scraper.core.scraper - INFO - 게시물 임시 저장: RCTD-663
+2025-05-12 07:38:12 - scraper.core.scraper - INFO - 게시물 임시 저장: RCTD-664
+2025-05-12 07:41:35 - scraper.core.database - INFO - 테이블 및 인덱스 생성 완료
+2025-05-12 07:41:35 - scraper.core.database - INFO - 데이터베이스 초기화 완료: database/scraper.db
+2025-05-12 07:41:35 - scraper.core.database - INFO - 테이블 및 인덱스 생성 완료
+2025-05-12 07:41:35 - scraper.core.database - INFO - 데이터베이스 초기화 완료
+2025-05-12 07:41:37 - scraper.core.scraper - INFO - 스크래핑 시작
+2025-05-12 07:41:37 - scraper.core.scraper - INFO - 페이지 처리: https://onejav.com/new
+2025-05-12 07:41:37 - scraper.core.scraper - INFO - Selenium으로 페이지 요청: https://onejav.com/new
+2025-05-12 07:42:49 - scraper.core.database - INFO - 테이블 및 인덱스 생성 완료
+2025-05-12 07:42:49 - scraper.core.database - INFO - 데이터베이스 초기화 완료: database/scraper.db
+2025-05-12 07:42:49 - scraper.core.database - INFO - 테이블 및 인덱스 생성 완료
+2025-05-12 07:42:49 - scraper.core.database - INFO - 데이터베이스 초기화 완료
+2025-05-12 07:42:50 - scraper.core.scraper - INFO - 🚀 스크래핑 시작
+2025-05-12 07:42:50 - scraper.core.scraper - INFO - 📄 페이지 처리: https://onejav.com/new
+2025-05-12 07:42:50 - scraper.core.scraper - INFO - 🌐 Selenium으로 페이지 요청: https://onejav.com/new
+2025-05-12 07:43:02 - scraper.core.scraper - INFO - 🔍 발견된 게시물 수: 10
+2025-05-12 07:43:03 - scraper.core.scraper - INFO - 📝 게시물 임시 저장: FNEO-091
+2025-05-12 07:43:05 - scraper.core.scraper - INFO - 📝 게시물 임시 저장: HONB-424
+2025-05-12 07:43:07 - scraper.core.scraper - INFO - 📝 게시물 임시 저장: JSTK-024
+2025-05-12 07:43:09 - scraper.core.scraper - INFO - 📝 게시물 임시 저장: KNAM-070
+2025-05-12 07:43:11 - scraper.core.scraper - INFO - 📝 게시물 임시 저장: KNAM-071
+2025-05-12 07:43:13 - scraper.core.scraper - INFO - 📝 게시물 임시 저장: NINE-110
+2025-05-12 07:43:16 - scraper.core.scraper - INFO - 📝 게시물 임시 저장: PAKO-090
+2025-05-12 07:43:18 - scraper.core.scraper - INFO - 📝 게시물 임시 저장: YAKO-070
+2025-05-12 07:43:19 - scraper.core.scraper - INFO - 📝 게시물 임시 저장: IESP-753
+2025-05-12 07:43:21 - scraper.core.scraper - INFO - 📝 게시물 임시 저장: RCTD-662
+2025-05-12 07:43:22 - scraper.core.scraper - INFO - ➡️ 다음 페이지 URL: https://onejav.com/new?page=2
+2025-05-12 07:43:22 - scraper.core.scraper - INFO - 📄 페이지 처리: https://onejav.com/new?page=2
+2025-05-12 07:43:22 - scraper.core.scraper - INFO - 🌐 Selenium으로 페이지 요청: https://onejav.com/new?page=2
+2025-05-12 07:43:29 - scraper.core.scraper - INFO - 🔍 발견된 게시물 수: 10
+2025-05-12 07:43:30 - scraper.core.scraper - INFO - 📝 게시물 임시 저장: RCTD-663
+2025-05-12 07:43:32 - scraper.core.scraper - INFO - 📝 게시물 임시 저장: RCTD-664
+2025-05-12 07:43:33 - scraper.core.scraper - INFO - 📝 게시물 임시 저장: RCTD-665
+2025-05-12 07:43:35 - scraper.core.scraper - INFO - 📝 게시물 임시 저장: RCTD-666
+2025-05-12 07:43:37 - scraper.core.scraper - INFO - 📝 게시물 임시 저장: RCTD-667
+2025-05-12 07:43:39 - scraper.core.scraper - INFO - 📝 게시물 임시 저장: FC2-PPV-4684316
+2025-05-12 07:43:40 - scraper.core.scraper - INFO - 📝 게시물 임시 저장: HEYZO3584
+2025-05-12 07:43:43 - scraper.core.scraper - INFO - 📝 게시물 임시 저장: FC2-PPV-4684202
+2025-05-12 07:46:45 - scraper.core.database - INFO - 테이블 및 인덱스 생성 완료
+2025-05-12 07:46:45 - scraper.core.database - INFO - 데이터베이스 초기화 완료: database/scraper.db
+2025-05-12 07:46:45 - scraper.core.database - INFO - 테이블 및 인덱스 생성 완료
+2025-05-12 07:46:45 - scraper.core.database - INFO - 데이터베이스 초기화 완료
+2025-05-12 07:50:17 - scraper.core.database - INFO - 테이블 및 인덱스 생성 완료
+2025-05-12 07:50:17 - scraper.core.database - INFO - 데이터베이스 초기화 완료: database/scraper.db
+2025-05-12 07:50:17 - scraper.core.database - INFO - 테이블 및 인덱스 생성 완료
+2025-05-12 07:50:17 - scraper.core.database - INFO - 데이터베이스 초기화 완료
+2025-05-12 07:51:13 - scraper.core.database - INFO - 게시물 추가 성공: FC2-PPV-4684406
+2025-05-12 07:51:13 - scraper.core.database - INFO - 게시물 추가 성공: FC2-PPV-4682741
+2025-05-12 07:51:13 - scraper.core.database - INFO - 게시물 추가 성공: FC2-PPV-4683131
+2025-05-12 07:51:13 - scraper.core.database - INFO - 게시물 추가 성공: FC2-PPV-4683146
+2025-05-12 07:51:13 - scraper.core.database - INFO - 게시물 추가 성공: FC2-PPV-4684249
+2025-05-12 07:51:13 - scraper.core.database - INFO - 게시물 추가 성공: FC2-PPV-4683447
+2025-05-12 07:51:13 - scraper.core.database - INFO - 게시물 추가 성공: FC2-PPV-4681411
+2025-05-12 07:51:13 - scraper.core.database - INFO - 게시물 추가 성공: FC2-PPV-4680599
+2025-05-12 07:51:13 - scraper.core.database - INFO - 게시물 추가 성공: PARATHD4200
+2025-05-12 07:51:13 - scraper.core.database - INFO - 게시물 추가 성공: PARATHD4194
+2025-05-12 07:51:13 - scraper.core.database - INFO - 게시물 추가 성공: PARATHD4193
+2025-05-12 07:51:13 - scraper.core.database - INFO - 게시물 추가 성공: OFJE-511
+2025-05-12 07:51:13 - scraper.core.database - INFO - 게시물 추가 성공: 326SCP-034
+2025-05-12 07:51:13 - scraper.core.database - INFO - 게시물 추가 성공: 229SCUTE-1506
+2025-05-12 07:51:13 - scraper.core.database - INFO - 게시물 추가 성공: FC2-PPV-4684322
+2025-05-12 07:51:13 - scraper.core.database - INFO - 게시물 추가 성공: FC2-PPV-4684278
+2025-05-12 07:51:13 - scraper.core.database - INFO - 게시물 추가 성공: FC2-PPV-4684202
+2025-05-12 07:51:13 - scraper.core.database - INFO - 게시물 추가 성공: HEYZO3584
+2025-05-12 07:51:13 - scraper.core.database - INFO - 게시물 추가 성공: FC2-PPV-4684316
+2025-05-12 07:51:13 - scraper.core.database - INFO - 게시물 추가 성공: RCTD-667
+2025-05-12 07:51:13 - scraper.core.database - INFO - 게시물 추가 성공: RCTD-666
+2025-05-12 07:51:13 - scraper.core.database - INFO - 게시물 추가 성공: RCTD-665
+2025-05-12 07:51:13 - scraper.core.database - INFO - 게시물 추가 성공: RCTD-664
+2025-05-12 07:51:13 - scraper.core.database - INFO - 게시물 추가 성공: RCTD-663
+2025-05-12 07:51:13 - scraper.core.database - INFO - 게시물 추가 성공: RCTD-662
+2025-05-12 07:51:13 - scraper.core.database - INFO - 게시물 추가 성공: IESP-753
+2025-05-12 07:51:13 - scraper.core.database - INFO - 게시물 추가 성공: YAKO-070
+2025-05-12 07:51:13 - scraper.core.database - INFO - 게시물 추가 성공: PAKO-090
+2025-05-12 07:51:13 - scraper.core.database - INFO - 게시물 추가 성공: NINE-110
+2025-05-12 07:51:13 - scraper.core.database - INFO - 게시물 추가 성공: KNAM-071
+2025-05-12 07:51:13 - scraper.core.database - INFO - 게시물 추가 성공: KNAM-070
+2025-05-12 07:51:13 - scraper.core.database - INFO - 게시물 추가 성공: JSTK-024
+2025-05-12 07:51:13 - scraper.core.database - INFO - 게시물 추가 성공: HONB-424
+2025-05-12 07:51:13 - scraper.core.database - INFO - 게시물 추가 성공: FNEO-091
+2025-05-12 07:51:15 - scraper.core.database - INFO - 데이터베이스 연결 종료
+2025-05-12 07:53:26 - scraper.core.database - INFO - 테이블 및 인덱스 생성 완료
+2025-05-12 07:53:26 - scraper.core.database - INFO - 데이터베이스 초기화 완료: database/scraper.db
+2025-05-12 07:53:26 - scraper.core.database - INFO - 테이블 및 인덱스 생성 완료
+2025-05-12 07:53:26 - scraper.core.database - INFO - 데이터베이스 초기화 완료
+2025-05-12 07:53:51 - scraper.core.database - INFO - 데이터베이스 연결 종료
+2025-05-12 07:55:15 - scraper.core.database - INFO - 테이블 및 인덱스 생성 완료
+2025-05-12 07:55:15 - scraper.core.database - INFO - 데이터베이스 초기화 완료: database/scraper.db
+2025-05-12 07:55:15 - scraper.core.database - INFO - 테이블 및 인덱스 생성 완료
+2025-05-12 07:55:15 - scraper.core.database - INFO - 데이터베이스 초기화 완료
+2025-05-12 07:55:41 - scraper.core.database - INFO - 데이터베이스 연결 종료
