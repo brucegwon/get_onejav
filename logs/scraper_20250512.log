@@ -128,3 +128,17 @@
 2025-05-12 08:32:24 - scraper.core.database - INFO - 데이터베이스 초기화 완료: database/scraper.db
 2025-05-12 08:32:24 - scraper.core.database - INFO - 테이블 및 인덱스 생성 완료
 2025-05-12 08:32:24 - scraper.core.database - INFO - 데이터베이스 초기화 완료
+2025-05-12 08:32:58 - scraper.core.database - INFO - 게시물 추가 실패 (중복): FNEO-091
+2025-05-12 08:32:59 - scraper.core.database - INFO - 게시물 추가 실패 (중복): NINE-110
+2025-05-12 08:33:01 - scraper.core.database - INFO - 게시물 추가 실패 (중복): PAKO-090
+2025-05-12 08:33:02 - scraper.core.database - INFO - 게시물 추가 실패 (중복): YAKO-070
+2025-05-12 08:33:02 - scraper.core.database - INFO - 게시물 추가 실패 (중복): IESP-753
+2025-05-12 08:33:03 - scraper.core.database - INFO - 게시물 추가 실패 (중복): RCTD-662
+2025-05-12 08:33:04 - scraper.core.database - INFO - 게시물 추가 실패 (중복): HONB-424
+2025-05-12 08:33:06 - scraper.core.database - INFO - 게시물 추가 실패 (중복): KNAM-071
+2025-05-12 08:33:07 - scraper.core.database - INFO - 게시물 추가 실패 (중복): JSTK-024
+2025-05-12 08:33:08 - scraper.core.database - INFO - 게시물 추가 실패 (중복): KNAM-070
+2025-05-12 08:33:08 - scraper.core.database - INFO - 게시물 추가 실패 (중복): HEYZO3584
+2025-05-12 08:33:09 - scraper.core.database - INFO - 게시물 추가 실패 (중복): FC2-PPV-4684322
+2025-05-12 08:33:11 - scraper.core.database - INFO - 게시물 추가 실패 (중복): FC2-PPV-4684316
+2025-05-12 08:33:12 - scraper.core.database - INFO - 게시물 추가 실패 (중복): RCTD-664
