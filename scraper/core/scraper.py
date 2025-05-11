@@ -27,6 +27,7 @@ import re
 from scraper.utils.trans_desc import translate_to_korean
 from typing import Optional, List, Dict, Any
 from concurrent.futures import ThreadPoolExecutor, as_completed
+import threading
 
 # 상수 정의
 BASE_URL = "https://onejav.com"
@@ -44,6 +45,7 @@ class Scraper:
         """Scraper 초기화"""
         self.target_url = target_url
         self.db = get_db()
+        self.lock = threading.Lock()  # 스레드 안전성을 위한 락 추가
         
         # Selenium WebDriver 설정
         chrome_options = Options()
