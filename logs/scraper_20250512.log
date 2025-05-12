@@ -243,3 +243,116 @@
 ℹ️ 테이블 및 인덱스 생성 완료
 ℹ️ 데이터베이스 초기화 완료
 ℹ️ 데이터베이스 연결 종료
+ℹ️ Scraping job completed
+ℹ️ Starting scraping job (run run_scraper.py)
+ℹ️ 테이블 및 인덱스 생성 완료
+ℹ️ 데이터베이스 초기화 완료: database/scraper.db
+ℹ️ 테이블 및 인덱스 생성 완료
+ℹ️ 데이터베이스 초기화 완료
+ℹ️ 데이터베이스 연결 종료
+ℹ️ Scraping job completed
+ℹ️ Starting scraping job (run run_scraper.py)
+ℹ️ 테이블 및 인덱스 생성 완료
+ℹ️ 데이터베이스 초기화 완료: database/scraper.db
+ℹ️ 테이블 및 인덱스 생성 완료
+ℹ️ 데이터베이스 초기화 완료
+ℹ️ 데이터베이스 연결 종료
+ℹ️ Scraping job completed
+ℹ️ Starting scraping job (run run_scraper.py)
+ℹ️ 테이블 및 인덱스 생성 완료
+ℹ️ 데이터베이스 초기화 완료: database/scraper.db
+ℹ️ 테이블 및 인덱스 생성 완료
+ℹ️ 데이터베이스 초기화 완료
+ℹ️ 데이터베이스 연결 종료
+ℹ️ Scraping job completed
+ℹ️ Starting scraping job (run run_scraper.py)
+ℹ️ 테이블 및 인덱스 생성 완료
+ℹ️ 데이터베이스 초기화 완료: database/scraper.db
+ℹ️ 테이블 및 인덱스 생성 완료
+ℹ️ 데이터베이스 초기화 완료
+ℹ️ 데이터베이스 연결 종료
+ℹ️ Scraping job completed
+ℹ️ Starting scraping job (run run_scraper.py)
+ℹ️ 테이블 및 인덱스 생성 완료
+ℹ️ 데이터베이스 초기화 완료: database/scraper.db
+ℹ️ 테이블 및 인덱스 생성 완료
+ℹ️ 데이터베이스 초기화 완료
+ℹ️ 데이터베이스 연결 종료
+ℹ️ Scraping job completed
+ℹ️ Starting scraping job (run run_scraper.py)
+ℹ️ 테이블 및 인덱스 생성 완료
+ℹ️ 데이터베이스 초기화 완료: database/scraper.db
+ℹ️ 테이블 및 인덱스 생성 완료
+ℹ️ 데이터베이스 초기화 완료
+❌ 게시물 추가 중 오류 발생: table posts has no column named views
+❌ 게시물 추가 중 오류 발생: table posts has no column named views
+❌ 게시물 추가 중 오류 발생: table posts has no column named views
+❌ 게시물 추가 중 오류 발생: table posts has no column named views
+❌ 게시물 추가 중 오류 발생: table posts has no column named views
+❌ 게시물 추가 중 오류 발생: table posts has no column named views
+❌ 게시물 추가 중 오류 발생: table posts has no column named views
+❌ 게시물 추가 중 오류 발생: table posts has no column named views
+❌ 게시물 추가 중 오류 발생: table posts has no column named views
+❌ 게시물 추가 중 오류 발생: table posts has no column named views
+❌ 게시물 추가 중 오류 발생: table posts has no column named views
+ℹ️ 데이터베이스 연결 종료
+ℹ️ Scraping job completed
+ℹ️ Starting scraping job (run run_scraper.py)
+ℹ️ 테이블 및 인덱스 생성 완료
+ℹ️ 데이터베이스 초기화 완료: database/scraper.db
+ℹ️ 테이블 및 인덱스 생성 완료
+ℹ️ 데이터베이스 초기화 완료
+❌ 게시물 추가 중 오류 발생: table posts has no column named views
+❌ 게시물 추가 중 오류 발생: table posts has no column named views
+❌ 게시물 추가 중 오류 발생: table posts has no column named views
+❌ 게시물 추가 중 오류 발생: table posts has no column named views
+❌ 게시물 추가 중 오류 발생: table posts has no column named views
+❌ 게시물 추가 중 오류 발생: table posts has no column named views
+❌ 게시물 추가 중 오류 발생: table posts has no column named views
+❌ 게시물 추가 중 오류 발생: table posts has no column named views
+❌ 게시물 추가 중 오류 발생: table posts has no column named views
+❌ 게시물 추가 중 오류 발생: table posts has no column named views
+❌ 게시물 추가 중 오류 발생: table posts has no column named views
+ℹ️ 데이터베이스 연결 종료
+ℹ️ Scraping job completed
+ℹ️ Scheduler stopped
+ℹ️ Scheduler started with 60 minutes interval
+ℹ️ Starting scraping job (run run_scraper.py)
+ℹ️ 테이블 및 인덱스 생성 완료
+ℹ️ 데이터베이스 초기화 완료: database/scraper.db
+ℹ️ 테이블 및 인덱스 생성 완료
+ℹ️ 데이터베이스 초기화 완료
+ℹ️ 게시물 추가 성공: FC2-PPV-4684966
+ℹ️ 게시물 추가 성공: FC2-PPV-4684937
+ℹ️ 게시물 추가 성공: FC2-PPV-4684566
+ℹ️ 게시물 추가 성공: FC2-PPV-4684480
+ℹ️ 게시물 추가 성공: FC2-PPV-4680262
+ℹ️ 게시물 추가 성공: FC2-PPV-4684796
+ℹ️ 게시물 추가 성공: SIRO-5474
+ℹ️ 게시물 추가 성공: 476MLA-225
+ℹ️ 게시물 추가 성공: 420HOI-347
+ℹ️ 게시물 추가 성공: 328HMDNV-812
+ℹ️ 게시물 추가 성공: 200GANA-3209
+ℹ️ 데이터베이스 연결 종료
+ℹ️ Scraping job completed
+ℹ️ Starting scraping job (run run_scraper.py)
+ℹ️ 테이블 및 인덱스 생성 완료
+ℹ️ 데이터베이스 초기화 완료: database/scraper.db
+ℹ️ 테이블 및 인덱스 생성 완료
+ℹ️ 데이터베이스 초기화 완료
+ℹ️ 데이터베이스 연결 종료
+ℹ️ Scraping job completed
+ℹ️ Starting scraping job (run run_scraper.py)
+ℹ️ 테이블 및 인덱스 생성 완료
+ℹ️ 데이터베이스 초기화 완료: database/scraper.db
+ℹ️ 테이블 및 인덱스 생성 완료
+ℹ️ 데이터베이스 초기화 완료
+ℹ️ 데이터베이스 연결 종료
+ℹ️ Scraping job completed
+ℹ️ Starting scraping job (run run_scraper.py)
+ℹ️ 테이블 및 인덱스 생성 완료
+ℹ️ 데이터베이스 초기화 완료: database/scraper.db
+ℹ️ 테이블 및 인덱스 생성 완료
+ℹ️ 데이터베이스 초기화 완료
+ℹ️ 데이터베이스 연결 종료
+ℹ️ Scraping job completed

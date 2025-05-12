@@ -118,7 +118,7 @@ class Scraper:
                 m_3prefix = re.match(r'^(\d{3})([A-Za-z]+)(\d+)$', title)
                 if m_3prefix:
                     title = f"{m_3prefix.group(1)}{m_3prefix.group(2)}-{m_3prefix.group(3)}"
-                elif len(title) <= 8:
+                elif len(title) <= 9:
                     m = re.match(r'^([A-Za-z]+)(\d+)$', title)
                     if m:
                         title = f"{m.group(1)}-{m.group(2)}"
