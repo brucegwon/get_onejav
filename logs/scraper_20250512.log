@@ -142,3 +142,88 @@
 2025-05-12 08:33:09 - scraper.core.database - INFO - 게시물 추가 실패 (중복): FC2-PPV-4684322
 2025-05-12 08:33:11 - scraper.core.database - INFO - 게시물 추가 실패 (중복): FC2-PPV-4684316
 2025-05-12 08:33:12 - scraper.core.database - INFO - 게시물 추가 실패 (중복): RCTD-664
+2025-05-12 08:33:13 - scraper.core.database - INFO - 게시물 추가 실패 (중복): RCTD-667
+2025-05-12 08:33:14 - scraper.core.database - INFO - 게시물 추가 실패 (중복): RCTD-663
+2025-05-12 08:33:15 - scraper.core.database - INFO - 게시물 추가 실패 (중복): FC2-PPV-4684278
+2025-05-12 08:33:17 - scraper.core.database - INFO - 게시물 추가 실패 (중복): FC2-PPV-4684202
+2025-05-12 08:33:17 - scraper.core.database - INFO - 게시물 추가 실패 (중복): RCTD-665
+2025-05-12 08:33:18 - scraper.core.database - INFO - 게시물 추가 실패 (중복): RCTD-666
+2025-05-12 08:33:18 - scraper.core.database - INFO - 게시물 추가 실패 (중복): PARATHD4200
+2025-05-12 08:33:18 - scraper.core.database - INFO - 게시물 추가 실패 (중복): 326SCP-034
+2025-05-12 08:33:18 - scraper.core.database - INFO - 게시물 추가 실패 (중복): 229SCUTE-1506
+2025-05-12 08:33:19 - scraper.core.database - INFO - 게시물 추가 실패 (중복): FC2-PPV-4684249
+2025-05-12 08:33:19 - scraper.core.database - INFO - 게시물 추가 실패 (중복): PARATHD4193
+2025-05-12 08:33:20 - scraper.core.database - INFO - 게시물 추가 실패 (중복): FC2-PPV-4681411
+2025-05-12 08:33:21 - scraper.core.database - INFO - 게시물 추가 실패 (중복): FC2-PPV-4680599
+2025-05-12 08:33:21 - scraper.core.database - INFO - 게시물 추가 실패 (중복): PARATHD4194
+2025-05-12 08:33:22 - scraper.core.database - INFO - 게시물 추가 실패 (중복): OFJE-511
+2025-05-12 08:33:24 - scraper.core.database - INFO - 게시물 추가 실패 (중복): FC2-PPV-4683447
+2025-05-12 08:33:26 - scraper.core.database - INFO - 데이터베이스 연결 종료
+2025-05-12 08:41:10 - scraper.core.database - INFO - 테이블 및 인덱스 생성 완료
+2025-05-12 08:41:10 - scraper.core.database - INFO - 데이터베이스 초기화 완료: database/scraper.db
+2025-05-12 08:41:10 - scraper.core.database - INFO - 테이블 및 인덱스 생성 완료
+2025-05-12 08:41:10 - scraper.core.database - INFO - 데이터베이스 초기화 완료
+2025-05-12 08:41:55 - scraper.core.database - INFO - 게시물 추가 실패 (중복): FNEO-091
+2025-05-12 08:41:56 - scraper.core.database - INFO - 게시물 추가 실패 (중복): NINE-110
+2025-05-12 08:41:57 - scraper.core.database - INFO - 게시물 추가 실패 (중복): PAKO-090
+2025-05-12 08:41:58 - scraper.core.database - INFO - 게시물 추가 실패 (중복): YAKO-070
+2025-05-12 08:41:58 - scraper.core.database - INFO - 게시물 추가 실패 (중복): IESP-753
+2025-05-12 08:42:00 - scraper.core.database - INFO - 게시물 추가 실패 (중복): RCTD-662
+2025-05-12 08:42:01 - scraper.core.database - INFO - 게시물 추가 실패 (중복): KNAM-071
+2025-05-12 08:42:02 - scraper.core.database - INFO - 게시물 추가 실패 (중복): JSTK-024
+2025-05-12 08:42:03 - scraper.core.database - INFO - 게시물 추가 실패 (중복): HONB-424
+2025-05-12 08:42:04 - scraper.core.database - INFO - 게시물 추가 실패 (중복): KNAM-070
+2025-05-12 08:42:04 - scraper.core.database - INFO - 게시물 추가 실패 (중복): HEYZO3584
+2025-05-12 08:42:05 - scraper.core.database - INFO - 게시물 추가 실패 (중복): FC2-PPV-4684322
+2025-05-12 08:42:07 - scraper.core.database - INFO - 게시물 추가 실패 (중복): FC2-PPV-4684316
+2025-05-12 09:09:06 - scraper.core.database - INFO - 테이블 및 인덱스 생성 완료
+2025-05-12 09:09:06 - scraper.core.database - INFO - 데이터베이스 초기화 완료: database/scraper.db
+2025-05-12 09:09:06 - scraper.core.database - INFO - 테이블 및 인덱스 생성 완료
+2025-05-12 09:09:06 - scraper.core.database - INFO - 데이터베이스 초기화 완료
+2025-05-12 09:09:22 - scraper.core.database - INFO - 데이터베이스 연결 종료
+2025-05-12 09:10:44 - scraper.core.database - INFO - 테이블 및 인덱스 생성 완료
+2025-05-12 09:10:44 - scraper.core.database - INFO - 데이터베이스 초기화 완료: database/scraper.db
+2025-05-12 09:10:44 - scraper.core.database - INFO - 테이블 및 인덱스 생성 완료
+2025-05-12 09:10:44 - scraper.core.database - INFO - 데이터베이스 초기화 완료
+2025-05-12 09:11:01 - scraper.core.database - INFO - 데이터베이스 연결 종료
+2025-05-12 09:14:52 - scraper.core.database - INFO - 테이블 및 인덱스 생성 완료
+2025-05-12 09:14:52 - scraper.core.database - INFO - 데이터베이스 초기화 완료: database/scraper.db
+2025-05-12 09:14:52 - scraper.core.database - INFO - 테이블 및 인덱스 생성 완료
+2025-05-12 09:14:52 - scraper.core.database - INFO - 데이터베이스 초기화 완료
+2025-05-12 09:15:26 - scraper.core.database - INFO - 데이터베이스 연결 종료
+2025-05-12 09:19:12 - scraper.core.database - INFO - 테이블 및 인덱스 생성 완료
+2025-05-12 09:19:12 - scraper.core.database - INFO - 데이터베이스 초기화 완료: database/scraper.db
+2025-05-12 09:19:12 - scraper.core.database - INFO - 테이블 및 인덱스 생성 완료
+2025-05-12 09:19:12 - scraper.core.database - INFO - 데이터베이스 초기화 완료
+2025-05-12 09:19:28 - scraper.core.database - INFO - 데이터베이스 연결 종료
+ℹ️ 테이블 및 인덱스 생성 완료
+ℹ️ 데이터베이스 초기화 완료: database/scraper.db
+ℹ️ 테이블 및 인덱스 생성 완료
+ℹ️ 데이터베이스 초기화 완료
+ℹ️ 데이터베이스 연결 종료
+ℹ️ 테이블 및 인덱스 생성 완료
+ℹ️ 데이터베이스 초기화 완료: database/scraper.db
+ℹ️ 테이블 및 인덱스 생성 완료
+ℹ️ 데이터베이스 초기화 완료
+ℹ️ 데이터베이스 연결 종료
+ℹ️ 테이블 및 인덱스 생성 완료
+ℹ️ 데이터베이스 초기화 완료: database/scraper.db
+ℹ️ 테이블 및 인덱스 생성 완료
+ℹ️ 데이터베이스 초기화 완료
+ℹ️ 게시물 추가 성공: KNAM-071
+ℹ️ 게시물 추가 성공: KNAM-070
+ℹ️ 게시물 추가 성공: JSTK-024
+ℹ️ 게시물 추가 성공: HONB-424
+ℹ️ 게시물 추가 성공: FNEO-091
+ℹ️ 데이터베이스 연결 종료
+ℹ️ 테이블 및 인덱스 생성 완료
+ℹ️ 데이터베이스 초기화 완료: database/scraper.db
+ℹ️ Scheduler started with 60 minutes interval
+ℹ️ Starting scraping job (run run_scraper.py)
+ℹ️ 테이블 및 인덱스 생성 완료
+ℹ️ 데이터베이스 초기화 완료: database/scraper.db
+ℹ️ 테이블 및 인덱스 생성 완료
+ℹ️ 데이터베이스 초기화 완료
+ℹ️ 데이터베이스 연결 종료
+ℹ️ Scraping job completed
+ℹ️ Scheduler stopped

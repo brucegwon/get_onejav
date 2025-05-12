@@ -21,14 +21,8 @@ from apscheduler.triggers.interval import IntervalTrigger
 # - 시간 간격 설정
 # - 작업 반복 실행
 
-# 로컬 모듈
-from core.scraper import Scraper
-# Scraper: 웹 스크래핑 핵심 클래스
-# - 웹 페이지 수집
-# - 데이터 파싱
-# - 데이터베이스 저장
 
-from utils.logger import setup_logger
+from utils.logger import get_logger
 # setup_logger: 로깅 시스템 설정
 # - 로그 파일 생성
 # - 로그 포맷 설정
@@ -43,6 +37,8 @@ from dotenv import load_dotenv
 # load_dotenv: .env 파일에서 환경 변수 로드
 # - 환경 변수 관리
 # - 설정 값 로드
+
+import subprocess
 
 # 환경 변수 로드
 load_dotenv()
@@ -60,10 +56,9 @@ class ScraperScheduler:
     
     def __init__(self):
         """ScraperScheduler 초기화"""
-        self.logger = setup_logger('scheduler')
+        self.logger = get_logger('scheduler')
         self.scheduler = BackgroundScheduler()
-        self.scraper = Scraper(os.getenv('TARGET_URL'))
-        self.interval_minutes = int(os.getenv('SCRAPE_INTERVAL_MINUTES', '30'))
+        self.interval_minutes = int(os.getenv('SCRAPE_INTERVAL_MINUTES', '60'))
 
     def start(self):
         """
@@ -93,14 +88,11 @@ class ScraperScheduler:
 
     def scrape_job(self):
         """
-        스크래핑 작업을 실행하는 함수
-        
-        스크래퍼를 사용하여 새로운 게시물을 수집하고
-        작업 상태를 로깅합니다.
+        run_scraper.py 파일을 실행하는 함수
         """
         try:
-            self.logger.info("Starting scraping job")
-            self.scraper.scrape_new_posts()
+            self.logger.info("Starting scraping job (run run_scraper.py)")
+            subprocess.run(["python", "run_scraper.py"], check=True)
             self.logger.info("Scraping job completed")
         except Exception as e:
             self.logger.error(f"Error in scraping job: {str(e)}")
@@ -113,7 +105,6 @@ class ScraperScheduler:
         """
         try:
             self.scheduler.shutdown()
-            self.scraper.close()
             self.logger.info("Scheduler stopped")
         except Exception as e:
             self.logger.error(f"Error stopping scheduler: {str(e)}")

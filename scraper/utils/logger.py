@@ -43,10 +43,19 @@ def get_logger(name: str) -> logging.Logger:
     console_handler.setLevel(logging.INFO)
     
     # 포맷터 설정
-    formatter = logging.Formatter(
-        '%(asctime)s - %(name)s - %(levelname)s - %(message)s',
-        datefmt='%Y-%m-%d %H:%M:%S'
-    )
+    class EmojiFormatter(logging.Formatter):
+        LEVEL_EMOJI = {
+            'INFO': 'ℹ️',
+            'WARNING': '⚠️',
+            'ERROR': '❌',
+            'DEBUG': '🐞',
+            'CRITICAL': '🔥',
+        }
+        def format(self, record):
+            emoji = self.LEVEL_EMOJI.get(record.levelname, '')
+            return f"{emoji} {record.getMessage()}"
+
+    formatter = EmojiFormatter()
     file_handler.setFormatter(formatter)
     console_handler.setFormatter(formatter)
     

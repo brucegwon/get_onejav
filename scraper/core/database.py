@@ -47,7 +47,8 @@ class Database:
                     translated_desc TEXT,
                     actress TEXT,
                     download_url TEXT NOT NULL,
-                    scraped_at TIMESTAMP NOT NULL
+                    scraped_at TIMESTAMP NOT NULL,
+                    views INTEGER DEFAULT 0
                 )
             """)
             
@@ -71,8 +72,8 @@ class Database:
                     INSERT OR IGNORE INTO posts (
                         url, code, title, image_url, file_size,
                         post_date, tags, description, translated_desc, actress,
-                        download_url, scraped_at
-                    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                        download_url, scraped_at, views
+                    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
                 """, (
                     post_data['url'],
                     post_data['code'],
@@ -85,7 +86,8 @@ class Database:
                     post_data.get('translated_desc', None),
                     post_data['actress'],
                     post_data['download_url'],
-                    post_data['scraped_at']
+                    post_data['scraped_at'],
+                    post_data.get('views', 0)
                 ))
                 success = cursor.rowcount > 0
                 if success:
