@@ -174,7 +174,7 @@ class Scraper:
                 'scraped_at': datetime.now()
             }
         except Exception as e:
-            print(f"⚡ 게시물 처리 오류: {str(e)}")
+            print(f"⚡ 게시물 작업 오류: {str(e)}")
             return None
 
     def save_post(self, post_data: dict, skip_duplicate_check: bool = False):
@@ -232,7 +232,7 @@ class Scraper:
         """새로운 게시물을 스크래핑"""
         start_time = time.time()
         start_dt = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-        print("✨ 스크래핑 시작 {start_dt}")
+        print(f"✨ 스크래핑 시작 {start_dt}")
         current_url = f"{BASE_URL}/new"
         today = datetime.now().date()
         should_continue = True
@@ -245,7 +245,7 @@ class Scraper:
         current_page = 1  # 현재 페이지 번호
         
         while current_url and should_continue:
-            print(f"📄 페이지 처리: {current_url}")
+            print(f"📄 페이지 작업: {current_url}")
             soup = self.get_page_with_selenium(current_url)
             
             cards = soup.find_all('div', class_='card mb-3')
@@ -261,7 +261,7 @@ class Scraper:
                         print(f"⏰ 오늘 이전 게시물 발견 (페이지 {current_page}, 게시물: {post_data['title']})")
                         break
                     page_posts.append(post_data)
-                    print(f"📝 게시물 처리: {post_data['title']}")
+                    print(f"📝 게시물 작업: {post_data['title']}")
             
             all_posts.extend(page_posts)
             if not should_continue:

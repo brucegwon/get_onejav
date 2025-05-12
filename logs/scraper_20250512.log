@@ -227,3 +227,19 @@
 ℹ️ 데이터베이스 연결 종료
 ℹ️ Scraping job completed
 ℹ️ Scheduler stopped
+ℹ️ Scheduler started with 60 minutes interval
+ℹ️ Starting scraping job (run run_scraper.py)
+ℹ️ 테이블 및 인덱스 생성 완료
+ℹ️ 데이터베이스 초기화 완료: database/scraper.db
+ℹ️ 테이블 및 인덱스 생성 완료
+ℹ️ 데이터베이스 초기화 완료
+ℹ️ 데이터베이스 연결 종료
+ℹ️ Scraping job completed
+ℹ️ Scheduler stopped
+ℹ️ Scheduler started with 60 minutes interval
+ℹ️ Starting scraping job (run run_scraper.py)
+ℹ️ 테이블 및 인덱스 생성 완료
+ℹ️ 데이터베이스 초기화 완료: database/scraper.db
+ℹ️ 테이블 및 인덱스 생성 완료
+ℹ️ 데이터베이스 초기화 완료
+ℹ️ 데이터베이스 연결 종료
